@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cart</title>
+		<link rel="stylesheet" href="data/checkout.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+		/>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<a href="index.html" class="logo">
+					<h1>Shop</h1>
+				</a>
+				<div class="input">
+					<input type="text" placeholder="Search..." />
+				</div>
+				<a href="chechout.html" class="cart">
+					<i class="fa-solid fa-cart-shopping"></i>
+					<span class="cart-value js-cart-value">0</span>
+				</a>
+			</nav>
+		</header>
+
+		<div class="cart-container">
+			<h1>Review Your Order</h1>
+			<div class="cart-items">
+				<!-- Cart items  -->
+        
+				<div class="item-wrapper">
+					
+				</div>
+
+				<!-- Cart total  -->
+				<div class="cart-total">
+					<h2>Check Out</h2>
+					<div class="cart-total-qty">Total Quantity: <span id="cart-total-qty" class="total">0</span></div>
+					<div class="cart-total-price">Total Price: <span id="cart-total-price" class="total">$0</span></div>
+					<div class="check-out">Pay Now</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<p>&copy; 2025 Shop <span>Designed with ❤️ by Jollyp | Peter</span></p>
+		</footer>
+		<script type="module" src="data/checkout.js"></script>
+	</body>
+</html>
